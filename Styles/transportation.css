@@ -1,0 +1,91 @@
+
+.nav {
+  background-color: none;
+  color: black;
+  list-style: none;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  margin-top: -10px;
+}
+
+li {
+  font-size: 40px;
+  font-family:'Faster One', cursive;
+}
+.nav > li {
+  display: inline-block;
+  padding: 0px 6px 0px 6px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav > li > a:hover {
+  color: grey;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #53D8BC;
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  padding: 10px 40px 12px 40px;
+  font-size: 19px
+}
+
+a {
+  color: darkgrey;
+  text-decoration: none;
+  text-shadow: -1px 1px lightgrey;
+}
+
+a:hover {
+    color: white;
+}
+
+.flex-container {
+  margin: 2%;
+  background-color: rgba(83, 216, 188, 0.3);
+  text-align: center;
+  padding: 10px 40px 10px 40px;
+}
+.flex-container2 {
+  display: -webkit-flex;
+  display: flex;
+  width: 96%;
+  height: 30%;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.type2 {
+  width: 100%;
+}
+
+.flex-item1 {
+  width:50%;
+  background-color: rgba(83, 216, 188, 0.3);
+  padding: 5px 5px 5px 5px;
+}
+
+.flex-item2 {
+  width:50%;
+  background-color: rgba(83, 216, 188, 0.3);
+  margin-left: 2%;
+  padding: 5px 5px 5px 5px;
+}

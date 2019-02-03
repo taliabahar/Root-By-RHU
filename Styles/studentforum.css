@@ -1,0 +1,66 @@
+.nav {
+  background-color: none;
+  color: black;
+  list-style: none;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  margin-top: -10px;
+}
+
+li {
+  font-size: 40px;
+  font-family:'Faster One', cursive;
+}
+.nav > li {
+  display: inline-block;
+  padding: 0px 6px 0px 6px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav > li > a:hover {
+  color: grey;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #53D8BC;
+}
+
+form {
+margin: 0 auto;
+text-align: center;
+}
+
+p, h3{
+  font-family: 'Oswald', sans-serif;
+}
+
+input {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.time {
+  font-size: 14px;
+  margin-top: -15px;
+  margin-bottom: 25px;
+  color: grey;
+  font-weight: 100;
+}
+
+.content {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+h3{
+    border-bottom: 6px solid #53D8BC;
+}

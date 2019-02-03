@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Bungee+Shade|Faster+One|Oswald" rel="stylesheet">
+    <link rel='stylesheet' href='Styles/adventure.css'>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1PR-Z-T8y5jRwZGXA358D9Py29AmI4oY&libraries=places&callback=initMap"
+        async defer></script>
+    <script src="Scripts/adventure.js"> </script>
+    <title>form.html</title>
+  </head>
+  <header>
+    <h1>Adventure</h1>
+    <nav>
+      <ul class='nav'>
+        <li><a href="/">Home</a></li>
+      </ul>
+   </nav>
+ </header>
+
+  <body>
+    <h2>What Are You Looking For?</h2>
+    <form>
+      <select id='dropdown' name="What are you looking for?">
+  <option></option>
+  <option id='study' value="a place to study">A Place to Study</option>
+  <option id='eat' value="a place to eat">A Place to Eat</option>
+  <option id='shop' value="a place to shop">A place to Shop</option>
+  <option id='landmarks' value="historical landmarks">Historical Landmarks</option>
+  <option id='culture' value="a cultural event">A Cultural Event</option>
+      </select>
+    </form>
+  <input id="pac-input" class="controls" type="text"
+     placeholder="Enter a location">
+ <div id="map"></div>
+ <div id="infowindow-content">
+   <span id="place-name"  class="title"></span><br>
+   Place ID <span id="place-id"></span><br>
+   <span id="place-address"></span>
+ </div>
+  </body>
+</html>
